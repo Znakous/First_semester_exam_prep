@@ -1,7 +1,3 @@
-#include <iostream>
-
-
-
 void func(int number) {
     // does some magic with number
 }
