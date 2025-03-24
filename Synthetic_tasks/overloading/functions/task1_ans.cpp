@@ -11,4 +11,5 @@ void func(std::string a) {
 int main() {
     func(5);
     func("5");
+    func("67");
 }
