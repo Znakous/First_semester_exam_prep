@@ -10,4 +10,5 @@ void func(int a) {
 int main() {
     func(5);
     func("5"); // outs 50
+    func("67"); // outs 670
 }
