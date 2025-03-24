@@ -1,10 +1,6 @@
 #include <stdlib.h>
 #include<string>
 
-bool operator<(const std::string& lhs, const std::string& rhs) {
-    return lhs.length() < rhs.length();
-}
-
 
 int main() {
     int a = 3, b = 4;
