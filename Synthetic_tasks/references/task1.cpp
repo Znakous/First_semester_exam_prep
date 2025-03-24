@@ -10,7 +10,7 @@ void increment(int a) {
 int main() {
     int x = 5;
     increment(x);
-    std::cout << x; // 6
+    std::cout << x << "\n"; // 6
     int y = 10;
     increment(y);
     std::cout << y; // 11
