@@ -11,6 +11,6 @@ void func(int count, char s) {
 
 
 int main() {
-    func(5, '6'); // outs 666666
-    func(5); // outs 111111
+    func(5, '6'); // outs 66666
+    func(5); // outs 11111
 }
