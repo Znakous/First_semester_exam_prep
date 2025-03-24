@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 void out(int& a) {
     std::cout << "number " << a << "\n";
@@ -10,4 +11,5 @@ int main() {
     out(x); // "number 10"
     int y = 5;
     out(y); // "number 5"
+    std::allocator<int> a;
 }

@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "utility": "cpp",
+        "array": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp",
+        "xtr1common": "cpp",
+        "xmemory": "cpp"
+    }
+}
