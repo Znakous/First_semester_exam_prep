@@ -1,13 +1,21 @@
 #include <iostream>
+#include <vector>
 
-void func(int a) {
-    std::cout << a << "\n";
-}
-
-// make code work
+class StackInt {
+public:
+ // implement me :)
+private:
+    std::vector<int> impl_;
+};
 
 
 int main() {
-    func(5);
-    func("5"); // outs 50
+    StackInt s;
+    s.push(5);
+    s.push(7);
+    std::cout << s.pop(); // 7
+    s.push(10);
+    std::cout << s.pop(); // 10
+    std::cout << s.pop(); // 5
+    return 0;
 }
