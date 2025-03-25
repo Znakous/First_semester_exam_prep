@@ -3,8 +3,6 @@
 
 int* GetAddressFromSecond(); // ignore this line pls :)
 
-extern int x;
-
 int* GetAddressInMain() {
     return &x;
 }
