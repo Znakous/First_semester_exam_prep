@@ -1,7 +1,7 @@
 #include <iostream>
 
 struct S{
-  S(S) = delete;
+  S(const S&) = delete;
   S(S&&) = delete;
   S& operator=(S) = delete;
   S& operator=(S&&) = delete;
