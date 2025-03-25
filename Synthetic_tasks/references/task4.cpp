@@ -1,6 +1,8 @@
 #include <iostream>
+#include <cassert>
 
 struct S{
+  S(int n_) : n(n_) { }
   S(const S&) = delete;
   S(S&&) = delete;
   S& operator=(const S&) = delete;
@@ -21,7 +23,7 @@ int main() {
   assert(eight.n == 9);
 
   const S one(1);
-  S two(8);
+  S two(2);
   out_and_inc(one, two); // 1
   assert(two.n == 3);
   return 0;
