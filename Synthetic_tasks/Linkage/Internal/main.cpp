@@ -10,6 +10,6 @@ int* GetAddressInMain() {
 }
 
 int main() {
-    assert(GetAddressFromSecond() == GetAddressInMain());
+    assert(GetAddressFromSecond() != GetAddressInMain());
     std::cout << "good job\n";
 }

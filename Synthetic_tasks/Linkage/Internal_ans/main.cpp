@@ -3,13 +3,13 @@
 
 int* GetAddressFromSecond(); // ignore this line pls :)
 
-extern int x;
+static int x = 10;
 
 int* GetAddressInMain() {
     return &x;
 }
 
 int main() {
-    assert(GetAddressFromSecond() == GetAddressInMain());
+    assert(GetAddressFromSecond() != GetAddressInMain());
     std::cout << "good job\n";
 }
