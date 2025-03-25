@@ -15,6 +15,7 @@ int* GetYAddressInMain() {
 }
 
 int main() {
+    // your task is to make the code fail
     // the code should raise 2 errors
     // 1) multiple definition of "x"
     // 2) nultiple definition of "y"
