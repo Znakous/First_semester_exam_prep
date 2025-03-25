@@ -1,9 +1,9 @@
 #include <iostream>
 
 struct S{
-  S(S) = delete;
+  S(const S&) = delete;
   S(S&&) = delete;
-  S& operator=(S) = delete;
+  S& operator=(const S&) = delete;
   S& operator=(S&&) = delete;
   // you can't copy value of type S
   int n;
